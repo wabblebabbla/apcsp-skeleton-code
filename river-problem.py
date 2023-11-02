@@ -26,7 +26,7 @@ def get_next_states(state):
         next_state[thing] = not state[thing]
         next_state["person"] = not state [thing]
 
-        if isValid(next_state) == True
+        if isValid(next_state) == Trueit
             next_state.append(next_state)
 
     just_person = copy.deepcopy(state)
